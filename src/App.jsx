@@ -1,6 +1,6 @@
 import './App.css'
 import Counter from './components/Counter/Counter'
-import Greeting from './components/Greeting/GreetingChild/GreetingChild'
+import Greeting from './components/Greeting/Greeting'
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
         <Counter initialValue = {0} number = {1}/>
         <Counter initialValue = {5} number = {5}/>
         <h2>Greeting</h2>
-        <Greeting/>
+        <Greeting name = {"Euralio"}/>
       </div>
     </>
   )

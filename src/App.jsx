@@ -7,7 +7,9 @@ function App() {
     <>
       <div>  
         <h2>Counter / Greeting</h2>
-        <Counter/>
+        <Counter initialValue = {0} number = {1}/>
+        <Counter initialValue = {5} number = {5}/>
+
       </div>
     </>
   )

@@ -1,15 +1,4 @@
-
-
-// const Greeting = (props) => {
-
 import { useEffect, useState } from "react";
-
-    
-//     return (    
-//     <p>Hello, {props.name}</p>
-//     )
-// }
-
 
 const Greeting = (props) => { 
     const [name, setName] = useState(props.name)
@@ -17,7 +6,7 @@ const Greeting = (props) => {
     useEffect(() => {
         console.log("Component mounted");
         setTimeout(() => {
-            setName("Aurelia")
+            setName("Alfonsina")
         }, 3000);
     }, [])
 

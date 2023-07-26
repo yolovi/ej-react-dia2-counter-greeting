@@ -1,5 +1,5 @@
 const Greeting = () => {
-    return <h2>Hello, Euralio</h2>;
+    return <h4>Hello, Euralio</h4>;
 
 }
 

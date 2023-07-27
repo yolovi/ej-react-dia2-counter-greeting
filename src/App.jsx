@@ -11,7 +11,7 @@ function App() {
         <Counter initialValue = {0} number = {1}/>
         <Counter initialValue = {5} number = {5}/>
         <h2>Greeting</h2>
-        <Greeting name = {"Euralio"}/>
+        <Greeting name = {"Euralio"} newName = {"Alfonsina"}/>
       </div>
     </>
   )

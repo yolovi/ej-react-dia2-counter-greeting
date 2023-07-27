@@ -6,7 +6,7 @@ const Greeting = (props) => {
     useEffect(() => {
         console.log("Component mounted");
         setTimeout(() => {
-            setName("Alfonsina")
+            setName(props.newName)
         }, 3000);
     }, [])
 
